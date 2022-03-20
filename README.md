@@ -39,3 +39,8 @@ gradle-multi-module
         ├── kotlin
         └── resources
 ```
+
+In case you'd need to build any module without building the whole project use the following: (to see the behind the scene add --info)
+```
+./gradlew :first-module:build --info
+```
