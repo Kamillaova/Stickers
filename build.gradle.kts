@@ -16,7 +16,7 @@ allprojects {
     }
 
     tasks.withType<KotlinCompile>() {
-        kotlinOptions.jvmTarget = "11"
+        kotlinOptions.jvmTarget = JavaVersion.VERSION_16.majorVersion
     }
 
     tasks.test {

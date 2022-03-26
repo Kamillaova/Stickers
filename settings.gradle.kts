@@ -1,3 +1,6 @@
-rootProject.name = "gradle-multi-module"
-include("first-module")
-include("second-module")
+rootProject.name = "Stickers"
+include("android")
+include("api")
+include("desktop")
+include("shared")
+include("web")
